@@ -1,0 +1,400 @@
+form {
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    width: 100%;
+    background-color: #4b2e83;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: .75rem;
+    z-index: 10;
+}
+
+footer p{
+    display: none;
+}
+
+.housing-options p, .housing-options button{
+    display: inline;
+}
+
+.housing-options img{
+    width:100%;
+    display: flex;
+}
+
+.housing-options p{
+    margin: .5rem;
+}
+
+.housing-options button{
+    border-color: goldenrod;
+    color: goldenrod;
+    border-radius: 5px;
+    padding: .5rem;
+    float:right;
+    margin: .5rem;
+    font-size: .5rem;
+
+}
+
+.list button{
+    margin: .5rem;
+}
+
+li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+.list ul li, .list button{
+    display:inline-block;
+}
+
+.filter button {
+    color: #444444;
+    background: #F3F3F3;
+    border: 1px #DADADA solid;
+    padding: 5px 10px;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 9pt;
+    outline: none;
+    /* Retrived from https://1stwebdesigner.com/free-code-snippets-css-buttons/ */
+}
+
+.housing-options button:hover {
+    background: goldenrod;
+    color: white;
+}
+
+
+.comparison-button{
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.list {
+    padding: 3rem;
+    margin: 3rem;
+}
+
+.filter button:hover {
+    border: 1px #C6C6C6 solid;
+    box-shadow: 1px 1px 1px #EAEAEA;
+    color: #333333;
+    background: #F7F7F7;
+}
+
+
+table, tr, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: .5rem;
+    text-align: center;
+    margin-left:auto; 
+    margin-right:auto; 
+}
+
+tr, td{
+    min-width: 200px;
+}
+
+.search-table-outter { 
+    overflow-x: scroll; 
+}
+
+#navItem1, #navItem2, #navItem3,
+#navItem4, #navItem5, #navItem6 {
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.name-of-title {
+    font-size: 1rem;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    padding-top: .5rem;
+}
+
+nav ul {
+    display: inline-block;
+}
+
+.user-space {
+    float: right;
+    display: none;
+}
+
+cite a {
+    text-decoration: underline;
+}
+
+.third-container a {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav a:hover{
+    background-color: goldenrod;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    -webkit-transform: rotateZ(-15deg);
+    -ms-transform: rotateZ(-15deg);
+    transform: rotateZ(-15deg);
+}
+
+header{
+    height: 500px; 
+}
+
+.pimg1{
+    background-image: url('/img/college.jpeg');
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 3rem;
+    width:100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.pimg1 .welcome{
+    display: inline-block;
+    background-color:#4b2e83;
+    color:#ddd;
+    text-align: center;
+}
+
+
+.pimg2{
+    background-image: url('/img/housing.jpg');
+    min-height: 100%;
+    height: 500px;
+}
+
+.text-between-imgs{
+    text-align: center;
+    margin: 50px 50px;
+    color: #666;
+}
+
+h2 {
+    text-align: center;
+    margin: 50px 50px;
+    color: #666;
+    padding: 1rem;
+}
+
+main h5, ul.filter{
+    margin: 50px 50px;
+    color: #666;
+    text-align: center;
+
+}
+
+form label {
+    color: #666;
+}
+
+.pimg3{
+    background-image: url('/img/friends2.jpg');
+    min-height: 100%;
+    height: 500px;
+    margin-top: 5rem;
+}
+
+
+.pimg3 p{
+    background-color: #111;
+    opacity: 0.7;
+    color: #fff;
+}
+
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.row {
+    height: 100%;
+    margin:0
+}
+
+main [class*=col-] {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.hamburger{
+    float: right;
+    display: block;
+}
+
+
+
+@media (min-width: 576px){
+    .pimg1, .pimg2, .pimg3{
+        background-attachment: fixed;
+    }
+
+    .col-sm-6 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 768px){
+
+
+    .user-space{
+        display: block;
+    }
+    
+    .hamburger{
+        display:none;
+    }
+
+    .name-of-title{
+        font-size: 1rem;
+    }
+
+    .home{
+        font-size: 1rem;
+    }
+
+    nav .user-space{ 
+        display: flex;
+        font-size: 1rem;
+    }
+    
+    header h1{
+        font-size: 3rem;
+    }
+    
+    header p{
+        font-size: 2rem;
+    }
+    
+    footer p{
+        display: block;
+    }
+
+    .pimg3 p{
+        font-size: 2.5rem;
+    }
+
+    .pic-container{
+        max-width: 720px;
+    }
+
+    .col-md-4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.33333%;
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+    }    
+
+    form {
+        font-size: 22px;
+    }
+    
+    form h5 {
+        display: inline;
+    }
+} 
+
+@media (min-width: 992px){
+
+    .name-of-title{
+        font-size: 1.5rem;
+    }
+
+    .home{
+        font-size: 1.2rem;
+    }
+
+    nav .user-space{ 
+        font-size: 1.2rem;
+    }
+    
+    header h1{
+        font-size: 3.5rem;
+    }
+    
+    header p{
+        font-size: 2.5rem;
+    }
+
+    .col-lg-3{
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+
+
+}
+
+
+@media (min-width: 1200px){
+    .pic-container{
+        max-width: 1000px;
+    }
+    .col-lg-3{
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+
+    .housing-options p{
+        font-size: 1.3rem;
+    }
+    .housing-options button{
+        font-size: 1rem;
+    }
+
+    .comparison-button button{
+        font-size: 1rem;
+    }
+
+    .list ul li, h5, .filter, .filter button{
+        font-size: 1rem;
+    }
+    table{
+        font-size: 1.5rem;
+    }
+} 
+

@@ -1,0 +1,124 @@
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Molly Li">
+    <meta name="description" content="Stage-2">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.css">
+    <link rel="icon" type="imgage/png" href="img/house-icon.png">
+    <!-- https://www.iconfinder.com/icons/384890/building_home_house_icon -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>UWOCH</title>
+
+    <!-- normalize.css for cross-browser stuff -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+
+    <!-- include required fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans:900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="name-of-title font-weight-bold"><a href="#">UWOCH</a></li>
+            <li class="home"><a href="#home">Home</a></li>
+        </ul>
+        <div class="user-space">
+            <li><a href="#About">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#login">User Account</a></li>
+            <li><a href="#list">My List</a></li>
+            <li><button><i class="fa fa-search" aria-label="/search/"></i></button></li>
+        </div>
+        <div class="hamburger">
+            <a href="#"><i class="fa fa-bars" aria-label="menu"></i></a>
+        </div>
+    </nav>
+
+    <header>
+        <div class="pimg1">
+            <section class="welcome">
+                <h1>Welcome!</h1>
+                <p class="lead">We are here to help you find a perfect housing at UW</p>
+            </section>
+        </div>
+    </header>
+
+    <main>
+        <section class="text-between-imgs">
+            <h2>Our Mission</h2>
+            <p>Finding where to live on campus can be a difficult thing to decide.
+                We have gone through the same process and we understand the struggle.
+                Therefore, we would like to help you find the perfect housing the best way we know how.
+                This website is a tool to help you find your future home at UW based on your preferences.
+                With this webite, we hope to help freshman and transfer students or anyone
+                who are interested in living on campus a step closer to find a perfect housing!
+            </p> 
+        </section>
+        <div class="pimg2"></div>
+
+
+        <h2>Options</h2>
+        <h5 class="pref">Preferences:</h5>
+
+        <ul class="filter">
+            <li>
+                <input type="checkbox" value="categorya" id="filter-categorya" checked/>
+                <label for="filter-categorya">Private Bath</label>
+            </li>
+            <li>
+                <input type="checkbox" value="categoryb" id="filter-categoryb" checked/>
+                <label for="filter-categoryb">Community Bath</label>
+            </li>
+            <li>
+                <button class="submit-button">submit</button>
+            </li>
+        </ul>
+
+        <div class="housing-options row justify-content-center"> 
+
+        </div>
+
+        <div class="comparison-button">
+            <button class="btn btn-primary" type="button" id="comparison">View Comparsion</button>
+            <button type="button" class="btn btn-danger" id="clear">Clear</button>
+
+        </div>
+
+        <div class="search-table-outter wrapper">
+            <table class="housing-table search-table inner"> 
+                    
+            </table>
+        </div>
+
+        <div class="list">
+            <ul>
+
+            </ul>
+        </div>
+
+        <div class="pimg3">
+            <p class="text-center font-italic" cite="https://hfs.uw.edu/Live">
+                <cite><a href="https://hfs.uw.edu/Live/Undergraduates%E2%80%94Living-on-Campus"><i>
+                            83%</i></a> of UW students who live on campus rate their experience as "excellent."
+                        </cite>
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <p>Design by Molly Li</p>
+    </footer>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/index.js"></script> -->
+</body>
+
+</html>

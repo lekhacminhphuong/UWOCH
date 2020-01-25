@@ -1,0 +1,138 @@
+{
+    "housing": [
+        {"name": "Alder Hall", 
+            "location": "West Campus", 
+            "price": "$2,576, $3,207, $3,844/quarter",
+            "agreementDuration": "Academic year, EFS",
+            "roomType": "Double Room, Triple Room, Studio Apartment",
+            "diningNearby": "Local Point, District Market, Cultivate",
+            "livingLearningCommunities": "Pre-Health Sciences",
+            "privateBath": true,
+            "url":"./img/Alder Hall.jpg"
+        },
+
+        {"name": "Elm Hall", 
+            "location": "West Campus", 
+            "price": "$2,576, $3,207, $3,844/quarter",
+            "agreementDuration": "Academic year",
+            "roomType": "Double Room, Triple Room, Studio Apartment",
+            "diningNearby": "Local Point, District Market, Cultivate",
+            "livingLearningCommunities": "Arts",
+            "privateBath": true,
+            "url":"./img/elm.jpg"
+
+        },
+
+        {"name": "Lander Hall", 
+            "location": "West Campus", 
+            "price": "$2,576, $3,207, $3,777, $3,844/quarter",
+            "agreementDuration": "Academic year, Winter Break, EFS",
+            "roomType": "Single Room, Double Room, Triple Room, Studio Apartment",
+            "diningNearby": "Local Point, District Market, Cultivate",
+            "livingLearningCommunities": "None",
+            "privateBath": true,
+            "url":"./img/lander.JPG"
+        },
+
+        {"name": "Maple Hall", 
+            "location": "West Campus", 
+            "price": "$2,576, $3,207, $3,777/quarter",
+            "agreementDuration": "Academic year",
+            "roomType": "Single Room, Double Room, Triple Room",
+            "diningNearby": "Local Point, District Market, Cultivate",
+            "livingLearningCommunities": "Engineering",
+            "privateBath": true,
+            "url":"./img/maple.jpg"
+        },
+
+        {"name": "Poplar Hall", 
+            "location": "West Campus", 
+            "price": "$3,207, $3,844/quarter",
+            "agreementDuration": "Academic year",
+            "roomType": "Double Room, Triple Room",
+            "diningNearby": "Local Point, District Market, Cultivate",
+            "livingLearningCommunities": "None",
+            "privateBath": true,
+            "url":"./img/poplar.jpg"
+        },
+
+        {"name": "Terry Hall", 
+            "location": "West Campus", 
+            "price": "$3,207, $3,844/quarter",
+            "agreementDuration": "Academic year",
+            "roomType": "Double Room, Studio Apartment",
+            "diningNearby": "Local Point, District Market, Cultivate, Husky Grind",
+            "livingLearningCommunities": "Honors",
+            "privateBath": true,
+            "url":"./img/terry.jpg"
+        },
+
+        {"name": "McCarty Hall", 
+            "location": "North Campus", 
+            "price": "$2,405, $2,576, $2,726, $3,207, $3,777, $3,844/quarter",
+            "agreementDuration": "Academic year",
+            "roomType": "Single Room, Double Room, Triple Room, Three-person Suite, Four-person Suite, Studio Apartment",
+            "diningNearby": "Center  Table, Husky Den",
+            "livingLearningCommunities": "None",
+            "privateBath": true,
+            "url":"./img/mccarty.jpg"
+        },
+
+        {"name": "McMahon Hall", 
+            "location": "North Campus", 
+            "price": "$2,148, $2,631/quarter",
+            "agreementDuration": "Academic year",
+            "roomType": "Single Room, Double Room",
+            "diningNearby": "Center  Table, Husky Den",
+            "livingLearningCommunities": "Business",
+            "privateBath": true,
+            "url":"./img/mcmahon.jpg"
+        },
+        
+        {"name": "Willow Hall", 
+            "location": "North Campus", 
+            "price": "$2,405, $2,576, $2,726, $3,207, $3,844/quarter",
+            "agreementDuration": "Academic year, Winter Break",
+            "roomType": "Double Room, Triple Room, Three-person Suite, Four-person Suite, Studio Apartment",
+            "diningNearby": "Center  Table, Husky Den",
+            "livingLearningCommunities": "None",
+            "privateBath": true,
+            "url":"./img/willow.jpg"
+        },
+
+        {"name": "Mandrona Hall", 
+            "location": "North Campus", 
+            "price": "$2,405, $2,576, $2,726, $3,207, $3,844/quarter",
+            "agreementDuration": "Academic year",
+            "roomType": "Single Room, Double Room, Triple Room, Three-person Suite, Four-person Suite",
+            "diningNearby": "Center  Table, Husky Den",
+            "livingLearningCommunities": "Business",
+            "privateBath": true,
+            "url":"./img/madrona.jpg"
+        },
+
+        {"name": "Hansee Hall", 
+            "location": "North Campus", 
+            "price": "$1,612, $1,827, $2,631/quarter",
+            "agreementDuration": "Academic year",
+            "roomType": "Single Room, Three-person Suite, Four-person Suite",
+            "diningNearby": "Center  Table, Husky Den",
+            "livingLearningCommunities": "None",
+            "privateBath": false,
+            "url":"./img/Hansee.jpg"
+        },
+        
+        {"name": "Haggett Hall", 
+            "location": "North Campus", 
+            "price": "$1,773, $1,827, $2,631, $2,149/quarter",
+            "agreementDuration": "Academic year",
+            "roomType": "Single Room, Double Room, Three-person Suite, Three-person Room",
+            "diningNearby": "Center  Table, Husky Den",
+            "livingLearningCommunities": "Global Business",
+            "privateBath": false,
+            "url":"./img/haggett.jpg"
+        }
+    ]
+}
+
+  
